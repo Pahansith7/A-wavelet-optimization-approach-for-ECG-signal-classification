@@ -23,10 +23,6 @@ A (Atrial premature beat),
 V (Premature ventricular contraction),
 / (Paced beat),
 
-## Requirements
-
-Make sure you have Python installed along with the necessary libraries. 
-
 ## Functionality
 Data Loading: Load ECG signal data from the MIT-BIH database.
 Data Preprocessing: Split the dataset into training and testing sets.
@@ -52,6 +48,3 @@ https://doi.org/10.1016/j.bspc.2011.07.001.
 
 (https://www.sciencedirect.com/science/article/pii/S1746809411000772)
 
-Abstract: Wavelets have proved particularly effective for extracting discriminative features in ECG signal classification. In this paper, we show that wavelet performances in terms of classification accuracy can be pushed further by customizing them for the considered classification task. A novel approach for generating the wavelet that best represents the ECG beats in terms of discrimination capability is proposed. It makes use of the polyphase representation of the wavelet filter bank and formulates the design problem within a particle swarm optimization (PSO) framework. Experimental results conducted on the benchmark MIT/BIH arrhythmia database with the state-of-the-art support vector machine (SVM) classifier confirm the superiority in terms of classification accuracy and stability of the proposed method over standard wavelets (i.e., Daubechies and Symlet wavelets).
-
-Keywords: Classification; Discrete wavelet transform (DWT); Electrocardiogram (ECG) signals; Particle swarm optimization (PSO); Support vector machines (SVM)
